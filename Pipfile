@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+alembic = "*"
+psycopg2 = "*"
+sqlalchemy = "*"
+werkzeug = "*"
+aioflask = "*"
+pytest = "*"
+requests = "*"
+pytest-flask = "*"
+pytest-dependency = "*"
+psycopg2-binary = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
