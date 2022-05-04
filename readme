@@ -1,0 +1,27 @@
+Start:
+docker-compose build
+docker-compose up
+
+tests:
+
+pytest tests/tests.py
+
+
+commands in postman:
+localhost:8080/users/ - get all users
+
+localhost:8080/create/   - create new user
+
+data:
+test_user_data = {
+    "username": "username",
+    "password": "password",
+    "email": "email"
+}
+
+localhost:8080/user/user_id - methods=['GET', 'DELETE', 'PUT', 'PATCH']
+GET info about user
+DELETE user
+PUT - Сhange all user data
+PATCH - Сhange some user data
+
